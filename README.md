@@ -48,6 +48,16 @@ This template is tested and worked on:
   - Safari 15.5
   - Firefox 102
 
+# Development
+## OSX
+```bash
+python3 -m http.server [PORT] 
+
+# usage: server.py [-h] [--cgi] [-b ADDRESS] [-d DIRECTORY] [-p VERSION] [port]
+```
+Then access the site via `https://localhost:8000`
+
+
 # Problems and Bugs
 Here are the problems and bugs that I plan to address in the future. If you fixed them, please do not hesitate to send me a pull request, and I would be very grateful. Please also report problems and bugs in [GitHub Issues](https://github.com/yenchiah/project-website-template/issues).
 
